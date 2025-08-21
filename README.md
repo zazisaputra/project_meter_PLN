@@ -19,12 +19,12 @@ Halaman untuk autentikasi pengguna sebelum masuk ke sistem.
 
 ![Halaman Login](https://github.com/zazisaputra/project_meter_PLN/blob/main/img/Tampilan_login.png)
 
-3. Halaman Pengecekan Data
+2. Halaman Pengecekan Data
 Setelah login, pengguna dapat langsung memasukkan Nomor Meter untuk memulai pencarian.
 
 ![Halaman Pengecekan Data](https://github.com/zazisaputra/project_meter_PLN/blob/main/img/Pengecekan_SN.png)
 
-5. Tampilan Hasil Data
+3. Tampilan Hasil Data
 Informasi detail, termasuk password, akan ditampilkan di halaman ini setelah data berhasil ditemukan.
 
 ![Tampilan Hasil Data](https://github.com/zazisaputra/project_meter_PLN/blob/main/img/tampilan_data.png)
