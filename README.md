@@ -1,5 +1,5 @@
 Aplikasi Pengecekan Password KWH Meter
-Aplikasi web sederhana untuk manajemen dan pengecekan data KWH meter.
+Aplikasi web sederhana untuk manajemen tim Technical Support dan pengecekan data KWH meter.
 
 📝 Deskripsi
 Project ini bertujuan untuk melihat password KWH meter dari setiap input nomor meter (serial number) yang masuk. Tujuannya adalah agar setiap DCU dari tim regional PLN bisa menginput password yang muncul untuk digunakan nantinya agar KWH meter bisa berfungsi dengan baik.
