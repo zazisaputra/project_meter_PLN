@@ -1,0 +1,146 @@
+/* Salin kode CSS dari jawaban sebelumnya, tidak ada perubahan */
+body {
+    font-family: Arial, sans-serif;
+    
+    /* Warna fallback jika gambar gagal dimuat */
+    background-color: #f0f2f5;
+
+    /* EFEK BARU: Pola ikon dengan lapisan transparan */
+    background-image: 
+        /* Lapisan warna putih semi-transparan di atas */
+        linear-gradient(rgba(21, 66, 204, 0.95), rgba(255, 255, 255, 0.95)),
+        /* Gambar ikon Anda sebagai pola di bawahnya */
+        url('csi_logo.jpeg');
+
+    /* Mengatur ukuran setiap ikon dalam pola agar tidak terlalu kecil */
+    background-size: 120px;
+
+    /* Properti yang sudah ada sebelumnya, jangan diubah */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.container {
+    background-color: #fff;
+    padding: 2rem 3rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+}
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+h3 {
+    text-align: center;
+    color: #555;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+p {
+    text-align: center;
+    color: #666;
+    margin-bottom: 1.5rem;
+}
+.input-group {
+    margin-bottom: 1.25rem;
+}
+.input-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #333;
+    font-weight: bold;
+}
+.input-group input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+button {
+    width: 100%;
+    padding: 0.85rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #0056b3;
+}
+.error {
+    color: #d93025;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    padding: 0.75rem;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 1rem;
+}
+#data-result {
+    margin-top: 2rem;
+    padding: 1rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    min-height: 50px;
+    line-height: 1.6;
+}
+#data-result p {
+    text-align: left;
+    margin: 0.5rem 0;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.header h2 {
+    margin: 0;
+}
+#logoutButton {
+    width: auto;
+    padding: 0.5rem 1rem;
+    background-color: #dc3545;
+}
+#logoutButton:hover {
+    background-color: #c82333;
+}
+/* Wrapper untuk input password */
+.password-wrapper {
+    position: relative; /* Wajib agar ikon bisa diposisikan */
+}
+
+/* Penataan untuk ikon mata itu sendiri */
+#togglePassword {
+    position: absolute; /* Mengatur posisi absolut terhadap wrapper */
+    top: 38px; /* Jarak dari atas wrapper, sesuaikan jika perlu */
+    right: 15px; /* Jarak dari kanan */
+    cursor: pointer;
+    width: 22px; /* Sedikit diperbesar agar lebih jelas */
+    height: auto;
+    opacity: 0.5; /* Dibuat sedikit transparan */
+    transition: opacity 0.2s; /* Efek transisi halus */
+}
+
+#togglePassword:hover {
+    opacity: 0.9; /* Opasitas berubah saat kursor di atasnya */
+}
+/* === Gaya untuk Footer Copyright === */
+footer {
+    text-align: center; /* Membuat teks di tengah */
+    margin-top: 2rem; /* Memberi jarak dari konten di atasnya */
+    padding-top: 1.5rem; /* Memberi jarak di dalam footer */
+    border-top: 1px solid #e9ecef; /* Garis pemisah tipis */
+    font-size: 0.85rem; /* Ukuran font sedikit lebih kecil */
+    color: #888; /* Warna teks abu-abu agar tidak terlalu menonjol */
+}
